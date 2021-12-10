@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+       <a href="index.html"><img src="img/images.png" style="width: 100px;"></a>
+        <h3>Розширений Пошук</h3>
+        <hr>
+    </header>
+    <form class="extended" action="https://google.com/search">
+        <p>Знайти сторінку що містить...</p>
+        <label for="in all words" class="value_input">Усіма цими словам:</label>
+        <input type="text" name="as_q" id="in all words" class="introduction_input"><br>
+        
+        <label for="in this word"class="value_input">Саме цим словом або фразою:</label>
+        <input type="text" name="as_epq" id="in this word" class="introduction_input"><br>
+        
+        <label for="any word"class="value_input">Будь-яким із цих слів:</label>
+        <input type="text" name="as_oq" id="any word" class="introduction_input"><br>
+        
+        <label for="none of the words"class="value_input">Жодне з цих слів:</label>
+        <input type="text" name="as_eq" id="none of the words"class="introduction_input"><br>
+        
+        <input type="submit" class="advanced_search" value="Знайти">
+    
+    </form>
+</body>
+</html>
